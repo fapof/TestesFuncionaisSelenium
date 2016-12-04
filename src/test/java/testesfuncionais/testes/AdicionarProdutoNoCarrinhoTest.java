@@ -23,16 +23,14 @@ public class AdicionarProdutoNoCarrinhoTest {
     }
 
     @Test
-    public void adcionarProduto(){
+    public void adicionarProduto(){
         page.clicarMenu();
         page.clicarSubMenu();
         page.clicarCategoria();
         page.selecionarProduto();
         page.clicarComprar();
-        page.qtdItensNoCarrinho();
 
         Assert.assertEquals("1", page.qtdItensNoCarrinho());
-
     }
 
     @After

@@ -11,7 +11,7 @@ import testesfuncionais.page.ProdutoPage;
 /**
  * Created by Antonio Filho on 04/12/2016.
  */
-public class RemoverProdutoDoCarrinho {
+public class RemoverProdutoDoCarrinhoTest {
     private WebDriver driver;
     ProdutoPage page = new ProdutoPage();
 
